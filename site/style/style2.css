@@ -1,0 +1,93 @@
+/*-------------NAWIGACJIA---------*/
+
+
+body {
+          padding-top: 50px;
+          position: relative;
+      }
+      
+      pre {
+          tab-size: 8;
+      }
+      
+      @media screen and (max-width: 768px) {
+          .side-collapse-container{
+              width:100%;
+              position:relative;
+              left:0;
+              transition:left .4s;
+          }
+          .side-collapse-container.out{
+              left:200px;
+          }
+          .side-collapse {
+              top:50px;
+              bottom:0;
+              left:0;
+              width:200px;
+              position:fixed;
+              overflow:hidden;
+              transition:width .4s;
+          }
+          .side-collapse.in {
+              width:0;
+          }
+
+
+
+
+
+
+.nav-color
+{
+    background-color: transparent;
+    border: none;
+}
+.navbar .nav > li > a:hover {
+    color: #16a085;
+    
+    
+    }
+.author-left
+{
+    height: 94vh;
+    background-color:  #b7b7b7;
+}
+.author-title
+{
+     margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+/*-------------O MNIE--------*/
+.author-paragraph
+{
+     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 26px;
+}
+.author
+{
+    height: 94vh;
+    background-color: #b7b7b7;
+    background-image: url(../img/mojezdjecie.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-title
+{
+    color: #333333;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
