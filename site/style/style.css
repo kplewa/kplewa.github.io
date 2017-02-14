@@ -255,7 +255,7 @@ body, html
     background-color: #b7b7b7;
     background-image: url(../img/mojezdjecie.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: auto;
 }
 
 .footer-title
