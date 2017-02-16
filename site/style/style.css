@@ -68,18 +68,26 @@
 
 
 
-
+a:visited
+{
+    outline: none;
+    color:#515151;
+}
 a:hover
 {
     color: white;
     text-decoration: none;
     
-} /*zmiana koloru linków po najechaniu kursorem*/
+} 
+a:focus
+{ outline: none;
+}
+    /*zmiana koloru linków po najechaniu kursorem*/
 
 /*Tła---------------------*/
 .heart-container
 {
-    width: 150px;
+    width: 270px;
     height: 120px;
   
     margin-top: 60px;
@@ -107,7 +115,14 @@ a:hover
 
 i:hover{
      margin-top: -0.5px;
+    
+    
 }
+i:focus
+{
+    outline: none;
+}
+
 
 /*====================================*/
 body, html
@@ -156,6 +171,7 @@ body, html
     font-weight: 400;
     letter-spacing: 3px;
     margin-top: 30px;
+    line-height: 35px;
 }
 
 .title-top
@@ -224,9 +240,11 @@ body, html
 /*---------------omnie*/
 .author-left
 {
-    height: 94vh;
+    height: 85vh;
     background-color:  #b7b7b7;
 }
+
+
 .author-title
 {
      margin-top: 60px;
@@ -241,28 +259,25 @@ body, html
 {
      color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     margin-top: 30px;
     text-align: left;
     margin-left: 50px;
     line-height: 26px;
 }
-.author
-{
-    height: 94vh;
-    background-color: #b7b7b7;
-    background-image: url(../img/mojezdjecie.png);
-    background-repeat: no-repeat;
-    background-size: auto;
-}
+
 
 .footer-title
 {
     color: #333333;
     font-family: 'Lato', sans-serif;
     font-size: 12px;
+}
+.footer-h
+{
+    height: 6vh;
 }
 
 /*NAWIGACJA*/
@@ -298,7 +313,7 @@ li>a
 .kontakt
 {
     background-color: #363636;  
-    height: 94vh;
+    height: 85vh;
 }
 .kontakt-title
 {
@@ -322,47 +337,207 @@ li>a
     margin-left: 50px;
     line-height: 68px;
 }
-.kontakt-form
-{
- margin-left: 35px;
-margin-top: 30px;
-}
-input[type="text"],
-input[type="email"]
-
-{
-    background-color: transparent;
-    border: none;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    box-shadow: none;
-    text-shadow: none;
-    margin-top: 10px;
-    width: 340px;
-}
-
-input[type="submit"]
-{
-     border: none;
-    color: #555;
-    font-family: 'Lato', sans-serif;
-    margin-left: 11px;
-    margin-top: 15px;
-}
 
 /*PROJEKTY==========*/
+
+.projekty-title
+{
+     margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.cont {
+  position: relative;
+    width: 200px;
+  height: 133px;
+  background: url(../img/buttons.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 3px;
+    filter: grayscale(100%);
+    opacity: 0.75;
+    background-position: center;
+    margin-top: 40px;
+   
+}
+.text
+{
+    font-family: 'Lato', sans-serif;
+    margin-top: 40px;
+    text-align: center;
+    
+}
+.cont span.text {
+  position: absolute;
+  top: 0;
+  margin-left: 33px;
+  opacity: 0;
+  color: white;
+    
+}
+ 
+.cont .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+
+}
+ 
+.cont:hover span.text {
+  opacity: 1;
+}
+ 
+.cont:hover .overlay {
+  opacity: 0.3;
+}
+
+
+
 
 .projekty
 {
  background-color: #555555;  
 height: 94vh;
 }
-.projekty-container1
-{   margin-top: 30vh;
-    background-color: transparent;
-    height: 40vh;
-    background-image: url(../img/phototime.png);
-    background-position: center;
-    background-size: auto;
-    background-repeat:  no-repeat;
+
+
+.quote
+{
+   color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 13px;
+    padding-top: 40px;
 }
+/*dla telefonów ip5*/
+@media(max-width: 400px){
+    .author-left
+{
+    height: 300%;
+    background-color:  #b7b7b7;
+}
+.author-title
+{
+     margin-top: 60px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.author-paragraph
+{
+     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 26px;
+}
+/*=============kontakt*/
+.kontakt
+{
+    background-color: #363636;  
+    height: 94vh;
+}
+.kontakt-title
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.kontakt-paragraph
+{
+     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 68px;
+}
+    
+    
+}
+
+/*dla telefonów ip6,samsung6*/
+@media( max-width: 1000px){
+.author-left
+{
+    height: 110vh;
+    background-color:  #b7b7b7;
+}
+.author-title
+{
+     margin-top: 60px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.author-paragraph
+{
+     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 26px;
+}
+/*=============kontakt*/
+.kontakt
+{
+    background-color: #363636;  
+    height: 94vh;
+}
+.kontakt-title
+{
+    margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.kontakt-paragraph
+{
+     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 68px;
+}
+}
+/*------------------*/
