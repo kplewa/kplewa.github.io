@@ -421,73 +421,13 @@ height: 83vh;
     padding-top: 40px;
 }
 /*dla telefonów ip5*/
-@media(max-width: 400px){
-    .author-left
-{
-    height: 300%;
-    background-color:  #b7b7b7;
-}
-.author-title
-{
-     margin-top: 60px;
-    margin-left: 30px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    padding-top: 30px;
-}
-.author-paragraph
-{
-     color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    margin-top: 30px;
-    text-align: left;
-    margin-left: 30px;
-    line-height: 26px;
-}
-/*=============kontakt*/
-.kontakt
-{
-    background-color: #363636;  
-    height: 94vh;
-}
-.kontakt-title
-{
-    margin-top: 60px;
-    margin-left: 50px;
-    color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 24px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    padding-top: 30px;
-}
-.kontakt-paragraph
-{
-     color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 3px;
-    margin-top: 30px;
-    text-align: left;
-    margin-left: 50px;
-    line-height: 68px;
-}
-    
-    
-}
+
 
 /*dla telefonów ip6,samsung6*/
 @media( max-width: 1000px){
 .author-left
 {
-    height: 110vh;
+    height: 120vh;
     background-color:  #b7b7b7;
 }
 .author-title
@@ -517,12 +457,12 @@ height: 83vh;
 .kontakt
 {
     background-color: #363636;  
-    height: 94vh;
+    height: 80vh;
 }
 .kontakt-title
 {
     margin-top: 60px;
-    margin-left: 50px;
+    margin-left: 15px;
     color: white;
     font-family: 'Lato', sans-serif;
     font-size: 24px;
@@ -534,13 +474,110 @@ height: 83vh;
 {
      color: white;
     font-family: 'Lato', sans-serif;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     letter-spacing: 3px;
     margin-top: 30px;
     text-align: left;
-    margin-left: 50px;
+    margin-left: 15px;
     line-height: 68px;
+
+    }
+    
+.projekty
+{
+ background-color: #555555;  
+height: 98vh;
+}
+    .projekty-title
+{
+    padding-top: 20px; 
+    margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+}
+/*------------------*/
+
+@media( max-width: 400px){
+.author-left
+{
+    height: 120vh;
+    background-color:  #b7b7b7;
+}
+.author-title
+{
+     margin-top: 60px;
+    margin-left: 30px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.author-paragraph
+{
+     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 30px;
+    line-height: 26px;
+}
+/*=============kontakt*/
+.kontakt
+{
+    background-color: #363636;  
+    height: 80vh;
+}
+.kontakt-title
+{
+    margin-top: 60px;
+    margin-left: 15px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    padding-top: 30px;
+}
+.kontakt-paragraph
+{
+     color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 15px;
+    line-height: 68px;
+
+    }
+    
+.projekty
+{
+ background-color: #555555;  
+height: 110vh;
+}
+    .projekty-title
+{
+    padding-top: 20px; 
+    margin-top: 60px;
+    margin-left: 50px;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 3px;
 }
 }
 /*------------------*/
