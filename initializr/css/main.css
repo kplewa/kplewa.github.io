@@ -1,0 +1,501 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*preloader*/
+
+
+#loader-wrapper {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  background: #ECF0F1;
+  /* display: none; */
+}
+
+.load hr {
+    border: 0;
+    margin: 0;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    border-radius: 50%;
+    animation: spin 2s ease infinite;
+}
+
+.load {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100px;
+    height: 100px;
+    /* display: none; */
+}
+
+.load :first-child {
+    background:#7b0dc8;
+    animation-delay: -1.5s;
+}
+ 
+.load :nth-child(2) {
+    background: #8c3bc4;
+    animation-delay: -1s;
+}
+ 
+.load :nth-child(3) {
+    background: #aa58e4;
+    animation-delay: -0.5s;
+}
+ 
+.load :last-child {
+    background:#40165d;
+}
+ 
+@keyframes spin {
+    0%, 100% {
+        transform: translate(0)
+    }
+    25% {
+        transform: translate(160%)
+    }
+    50% {
+        transform: translate(160%, 160%)
+    }
+    75% {
+        transform: translate(0, 160%)
+    }
+}
+
+
+
+
+
+
+
+body {
+  background: #673ab7;
+}
+
+svg {
+  position: fixed;
+  top: 60px;
+  left:270px;
+  right: 0;
+  bottom: 0;
+
+    
+    
+}
+.wrapper
+{
+    height: 500px;
+}
+
+.navbar .nav > li > a {
+    float: none;
+   
+   
+    text-decoration: none;
+     font-family: Courier, monospace;
+    color:#fff;
+    
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+    
+    
+    }
+    
+.navbar .nav > li > a:hover {
+    color: #16a085;
+    
+    
+    }
+
+    
+
+.navbar
+{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    
+  
+}
+.menu
+{
+    background-color: transparent;
+    
+}
+
+svg
+{
+  
+    
+}
+
+/*
+path{
+   
+   
+    stroke: #000;
+    
+    stroke-width: 1;
+    stroke-dasharray: 100px;
+    stroke-dashoffset: 100px;
+    animation-name: draw;
+    animation-duration: 7s;
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1; 
+    animation-timing-function: linear;
+   
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+     
+  }
+}
+*/
+
+i
+{
+    color: white;
+    
+}
+i:hover
+{
+    color: #16a085;
+}
+.social-media
+{
+    margin-top: 30px;
+    height: 200px;
+    width: 100px;
+    display: inline;
+}
+.about
+{
+    
+    height: 300px;
+   
+    font-family: Courier, monospace;
+    color:#fff;
+    
+}
+.about-title
+{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.about-paragraph
+{
+    margin-left: 30px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+.omnie
+{
+    
+ 
+    font-family: Courier, monospace;
+    color:#fff;
+    
+}
+.photos
+{
+    height: 400px;
+
+}
+.hurts
+{
+      background-image: url(../img/kot.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    margin: 0;
+    border-top-right-radius: 2px;
+    
+}
+.ja
+{
+    margin: 0;
+    background-image: url(../img/ja.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    padding: 0;
+}
+.opener
+{
+   margin: 0;
+    padding: 0;
+    background-image: url(../img/opener.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine; 
+}
+.widok
+{
+    background-image: url(../img/widok.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 2px;
+}
+.title
+{
+    padding-top: 50px;
+}
+.tosia
+{
+      background-image: url(../img/tosia.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    margin: 0;
+    
+    
+}
+.kot
+{
+    background-image: url(../img/kot.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    margin: 0;
+    
+    
+}
+.rajd
+{
+    
+    background-image: url(../img/rajd.jpg);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    margin: 0;
+    border-bottom-right-radius: 2px;
+}
+.festiwal
+{
+    
+      background-image: url(../img/festiwal.png);
+    height: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    margin: 0;
+    border-bottom-left-radius: 2px;
+    
+}
+
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
