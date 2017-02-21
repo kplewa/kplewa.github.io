@@ -115,6 +115,10 @@ svg {
     
     
     }
+navbar .nav > li > a:visited
+{
+        color:#fff;
+}
 
     
 
