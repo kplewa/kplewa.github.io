@@ -257,6 +257,10 @@ i:hover
     padding-top: 50px;
     margin-left: 6px;
 }
+.paragraph
+{
+    margin-left: 6px;
+}
 .tosia
 {
       background-image: url(../img/tosia.png);
