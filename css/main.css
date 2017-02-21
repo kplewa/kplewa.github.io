@@ -3,9 +3,7 @@
    Author's custom styles
    ========================================================================== */
 /*preloader*/
- #slides {
-      display:none;
-    }
+
 
 #loader-wrapper {
   position: fixed;
@@ -91,6 +89,11 @@ svg {
 
     
     
+}
+.good
+{
+    margin-top: 400px;
+    margin-left:100px;
 }
 .wrapper
 {
