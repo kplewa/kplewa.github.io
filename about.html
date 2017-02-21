@@ -13,7 +13,9 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-        
+        <link rel="stylesheet" href="dist/css/lightbox.css">
+      
+
 
         <!--[if lt IE 9]>
             <script src="js/vendor/html5-3.6-respond-1.4.2.min.js"></script>
@@ -57,18 +59,19 @@
                 </div>
                 <div class="photos col-md-6 about">
                     <div class="row">
-                        <div class="col-md-4 widok"></div>
-                        <div class="col-md-3 ja"></div>
-                        <div class="col-md-5 hurts"></div>
+                        <a href="img/widok.png" data-lightbox="pictures" > <div class="col-md-4 widok"></div></a>
+                        <a href="img/ja.png" data-lightbox="pictures"> <div class="col-md-3 ja"></div></a>
+                        <a href="img/kot.png" data-lightbox="pictures" > <div class="col-md-5 hurts"></div></a>
                     </div>
                     <div class="row">
-                        <div class="col-md-3 festiwal"></div>
-                        <div class="col-md-6 tosia"></div>
-<!--                    <div class="col-md-3 kot"></div>-->
-                        <div class="col-md-3 rajd"></div>
+                        <a href="img/festiwal.png" data-lightbox="pictures" > <div class="col-md-3 festiwal"></div></a>
+                        <a href="img/tosia.png" data-lightbox="pictures" > <div class="col-md-6 tosia"></div></a>
+                    
+                        <a href="img/rajd.jpg" data-lightbox="pictures"> <div class="col-md-3 rajd"></div></a>
                     </div>
             
                 </div>
+              
             </div>
         </div>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
@@ -80,11 +83,13 @@
         <script src="js/main.js"></script>
         <script src="js/jquery-3.1.1.js"></script>
         <script src="js/jquery-3.1.1.min.js"></script>
+ 
          <script>
  
 $(window).load(function() {
     $("#loader-wrapper").fadeOut();
 });
 </script>
+        <script src="dist/js/lightbox.js"></script>
     </body>
 </html>

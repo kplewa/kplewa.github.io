@@ -3,7 +3,9 @@
    Author's custom styles
    ========================================================================== */
 /*preloader*/
-
+ #slides {
+      display:none;
+    }
 
 #loader-wrapper {
   position: fixed;
@@ -83,7 +85,7 @@ body {
 svg {
   position: fixed;
   top: 60px;
-  left:270px;
+  left:273px;
   right: 0;
   bottom: 0;
 
@@ -181,13 +183,7 @@ i:hover
 {
     color: #16a085;
 }
-.social-media
-{
-    margin-top: 30px;
-    height: 200px;
-    width: 100px;
-    display: inline;
-}
+
 .about
 {
     
@@ -263,11 +259,11 @@ i:hover
 .title
 {
     padding-top: 50px;
-    margin-left: 6px;
+    margin-left: 7px;
 }
 .paragraph
 {
-    margin-left: 6px;
+    margin-left: 7px;
 }
 .tosia
 {
