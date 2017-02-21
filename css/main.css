@@ -109,13 +109,17 @@ svg {
     
     
     }
+.navbar-default .navbar-nav > li > a:focus{
+    color: white;
+}
+
     
 .navbar .nav > li > a:hover {
     color: #16a085;
     
     
     }
-navbar .nav > li > a:visited
+ a:focus
 {
         color:#fff;
 }
