@@ -98,7 +98,10 @@
 
 
 
-
+.palac
+{
+      left:50%;
+}
 
 body {
   background: #673ab7;
@@ -107,7 +110,7 @@ body {
 svg {
   position:relative;
   top: ;
-  left:50%;
+
   right: 0;
   bottom: 0;
 
@@ -116,8 +119,9 @@ svg {
 }
 .good
 {
-    margin-top: 400px;
-    margin-left: 100px;
+   
+    margin-left: -50%;
+    position: static;
 }
 .wrapper
 {
@@ -246,6 +250,7 @@ i:hover
 .photos
 {
     height: 400px;
+    margin-left: ;
 
 }
 .hurts
