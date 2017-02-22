@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/normalize.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/animations.css">
         
         
 
@@ -73,17 +74,20 @@
   </svg>
        
 </div>
+        
         <div class="col-md-7">
+<!--                     <div id="fly"></div>-->
         <span class="omnie">
      <h1 class="title">Hi, I'm Katarzyna Plewa</h1>
         <p class="paragraph">- coder based in Warsaw</p>
-            <ul class="list-inline text-center">
+            <ul class="list-inline social">
                 <li><a href="https://github.com/kplewa" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
                 <li><a href="https://twitter.com/cudownakasia" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
                 <li><a href="https://codepen.io/cudownakasia/" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i></a></li>
             
             </ul>
             </span>
+
         </div>
 
         
@@ -114,7 +118,13 @@
  
 $(window).load(function() {
     $("#loader-wrapper").fadeOut();
+   
 });
+</script>
+        <script>
+	$('#fly').click(function() {
+		$(this).addClass("slideUp");
+	});
 </script>
     
     </body>
