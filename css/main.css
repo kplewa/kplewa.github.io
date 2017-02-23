@@ -115,6 +115,20 @@ textarea {
    ========================================================================== */
 
 @media(max-width:700px){
+.footer-title
+{
+    color: white !important;
+    font-size: 9px;
+    float: left;
+    font-family: Courier, monospace;
+    text-align: center;
+}
+.footer-h
+{
+    height: 4vh;
+    
+}
+
     
     .about
     {
@@ -174,8 +188,6 @@ textarea {
     }
     .media
     {
-        margin-right: 20px;
-        margin-left: -20px;
     }
     
     .home-paragraph
@@ -183,7 +195,7 @@ textarea {
         text-align: center;
         font-size: 20px;
     }
-    
+    .social
     {
         margin: auto;
         margin-right: 0;
@@ -193,16 +205,16 @@ textarea {
     .wrapper{
         height: 20px;
     }
-svg
+    svg
     {
         visibility: hidden;
     }
     
-.draw
-{
+    .draw
+    {
     visibility: visible;
     
-}
+    }
 }
 /*================================================
 ==================================================
@@ -312,6 +324,7 @@ social
 {
     margin-left:44%;
     margin-top: 2%;
+    
 }
 i
 {
