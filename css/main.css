@@ -3,44 +3,23 @@
    Author's custom styles
    ========================================================================== */
 /*preloader*/
-@media(max-width:500px)
-{
-    .palac
-{
-        margin-left: -30%;
-        position: absolute;
-      object-position: center;
-        height: 300px;
-        
-    }
-    .wrapper
-    {
-        height: 50vh;
-    }
-   
-    .title
-    {
-        text-align: center;
-        font-size: 20px;
-    }
-    .paragraph
-    {
-        text-align: center;
-    }
- 
-}
 
-@keyframes flight
+/*
+.draw
 {
-    0%{
-        visibility: hidden;
-        margin-right: -300px;
-    }
-    100%{
-        margin-right: 180%;
-        
-    }
+    visibility: hidden;
+    height: 200px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/draw.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
+*/
+/*
+
 #fly
 {
     height: 80px;
@@ -54,6 +33,180 @@
     transition: 2s;
     background-size: contain;
 }
+*/
+/*
+path{
+   
+   
+    stroke: #000;
+    
+    stroke-width: 1;
+    stroke-dasharray: 100px;
+    stroke-dashoffset: 100px;
+    animation-name: draw;
+    animation-duration: 7s;
+    animation-fill-mode: forwards; 
+    animation-iteration-count: 1; 
+    animation-timing-function: linear;
+   
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+     
+  }
+}
+*/
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+@media(max-width:700px){
+    
+    .about
+    {
+        height: 450px !important;
+        
+    }
+    .about-paragraph
+    {
+        margin-bottom: 20px;
+    }
+    
+    .photos
+    {
+        height: 420 !important;
+    }
+    .widok
+    {
+        visibility: hidden;
+        height: 0px;
+        display: none;
+    }
+    .ja
+    {
+        height: 400px !important;
+        
+        
+    }
+    .hurts
+    {
+        visibility: hidden;
+        height: 0px;
+        display: none;
+    }
+    .festiwal
+    {
+        visibility: hidden;
+        height: 0px;
+        display: none;
+    }
+    .tosia
+    {
+        visibility: hidden;
+        height: 0px;
+        display: none;
+    }
+    .rajd
+    {
+        visibility: hidden;
+        height: 0px;
+        display: none;
+    }
+    .home-title
+    {
+        font-size: 26px;
+        text-align: center;
+        
+    }
+    .media
+    {
+        margin-right: 20px;
+        margin-left: -20px;
+    }
+    
+    .home-paragraph
+    {
+        text-align: center;
+        font-size: 20px;
+    }
+    
+    {
+        margin: auto;
+        margin-right: 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    .wrapper{
+        height: 20px;
+    }
+svg
+    {
+        visibility: hidden;
+    }
+    
+.draw
+{
+    visibility: visible;
+    
+}
+}
+/*================================================
+==================================================
+PRELOADER==============================================*/
 #loader-wrapper {
   position: fixed;
   top: 0;
@@ -118,117 +271,44 @@
         transform: translate(0, 160%)
     }
 }
-
-
-
-
-
+/*====================================================================================================HOME=================================================================================================*/
+.home-container
+{
+    height: 84vh;
+    
+}
 .palac
 {
-      left:50%;
-     position:relative;
+    left:50%;
+    position:relative;
+    height: 400px;
+    width: 200px;
 }
-
-body {
+body 
+{
   background: #673ab7;
 }
-
-svg {
- 
-  top: ;
-
-  right: 0;
-  bottom: 0;
-
-    
-    
-}
-.good
+svg 
 {
-   
-    margin-left: -50%;
-
-     position:relative;
+    right: 0;
+    bottom: 0;
+    display: block;
 }
-
-
-.navbar .nav > li > a {
-    float: none;
-   
-   
-    text-decoration: none;
-     font-family: Courier, monospace;
+.home
+{
+    font-family: Courier, monospace;
     color:#fff;
-    
-    font-size: 16px;
-    margin-top: 10px;
-    letter-spacing: 4px;
-    
-    
-    }
-.navbar-default .navbar-nav > li > a:focus{
-    color: white;
 }
-
-    
-.navbar .nav > li > a:hover {
-    color: #16a085;
-    
-    
-    }
- a:focus
+.home-title
 {
-        color:#fff;
+    padding-top: 70px;
+    margin-left: 1%;
 }
-
-    
-
-.navbar
+.home-paragraph
 {
-    background-color: transparent;
-    border: none;
-    margin: 0;
-    padding: 0;
-    
-  
+    margin-left: 1%;
 }
-.menu
-{
-    background-color: transparent;
-    
-}
-
-svg
-{
-  
-    
-}
-
-/*
-path{
-   
-   
-    stroke: #000;
-    
-    stroke-width: 1;
-    stroke-dasharray: 100px;
-    stroke-dashoffset: 100px;
-    animation-name: draw;
-    animation-duration: 7s;
-    animation-fill-mode: forwards; 
-    animation-iteration-count: 1; 
-    animation-timing-function: linear;
-   
-}
-
-@keyframes draw {
-  to {
-    stroke-dashoffset: 0;
-     
-  }
-}
-*/
-.social
+social
 {
     margin-left:44%;
     margin-top: 2%;
@@ -236,21 +316,56 @@ path{
 i
 {
     color: white;
-    
 }
 i:hover
 {
     color: #16a085;
 }
 
-.about
+.navbar .nav > li > a 
 {
-    
-    height: 300px;
-   
+    float: none;
+    text-decoration: none;
     font-family: Courier, monospace;
     color:#fff;
-    
+    font-size: 16px;
+    margin-top: 10px;
+    letter-spacing: 4px;
+}
+.navbar-default .navbar-nav > li > a:focus
+{
+    color: white;
+}
+.navbar .nav > li > a:hover 
+{
+    color: #16a085;
+}
+ a:focus
+{
+    color:#fff;
+}
+.navbar
+{
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+.menu
+{
+    background-color: transparent;
+}
+/*====================================================================================================================================================================================================ABOUT========================================================================================================================================================================================*/
+.svg-options
+{
+    margin-left: -50%;
+    position:relative;
+}
+.about
+{
+    height: 300px;
+    font-family: Courier, monospace;
+    color:#fff;
 }
 .about-title
 {
@@ -263,30 +378,21 @@ i:hover
     font-size: 14px;
     padding-top: 20px;
 }
-.omnie
-{
-    
- 
-    font-family: Courier, monospace;
-    color:#fff;
-    
-}
+
 .photos
 {
     height: 400px;
     margin-left: ;
-
 }
 .hurts
 {
-      background-image: url(../img/kot.png);
+    background-image: url(../img/kot.png);
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aquamarine;
     margin: 0;
     border-top-right-radius: 2px;
-    
 }
 .ja
 {
@@ -316,25 +422,14 @@ i:hover
     background-size: cover;
     border-top-left-radius: 2px;
 }
-.title
-{
-    padding-top: 70px;
-    margin-left: 1%;
-}
-.paragraph
-{
-    margin-left: 1%;
-}
 .tosia
 {
-      background-image: url(../img/tosia.png);
+    background-image: url(../img/tosia.png);
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aquamarine;
     margin: 0;
-    
-    
 }
 .kot
 {
@@ -344,12 +439,9 @@ i:hover
     background-size: cover;
     background-color: aquamarine;
     margin: 0;
-    
-    
 }
 .rajd
 {
-    
     background-image: url(../img/rajd.jpg);
     height: 200px;
     background-repeat: no-repeat;
@@ -361,7 +453,7 @@ i:hover
 .festiwal
 {
     
-      background-image: url(../img/festiwal.png);
+    background-image: url(../img/festiwal.png);
     height: 200px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -370,78 +462,18 @@ i:hover
     border-bottom-left-radius: 2px;
     
 }
-
-
-html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+/*===================================================================================================FOOTER====================================================================================*/
+.footer-title
+{
+    color: white !important;
+    font-size: 9px;
+    float: left;
+    font-family: Courier, monospace;
 }
-
-::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+.footer-h
+{
+    height: 4vh;
 }
-
-::selection {
-    background: #b3d4fc;
-    text-shadow: none;
-}
-
-hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
-}
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-    vertical-align: middle;
-}
-
-fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
-}
-
-textarea {
-    resize: vertical;
-}
-
-.browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
-}
-
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Media Queries
    ========================================================================== */
