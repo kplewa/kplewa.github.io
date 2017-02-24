@@ -197,10 +197,11 @@ textarea {
     }
     .social
     {
-        margin: auto;
+        margin: auto !important;
         margin-right: 0;
         margin-left: 0;
         text-align: center;
+        
     }
     .wrapper{
         height: 20px;
